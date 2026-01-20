@@ -28,3 +28,15 @@
 # 2
 # Quotient: 2
 # Remainder: 1
+
+print("Enter m")
+m = int(input())
+print("Enter n")
+n = int(input())
+
+quotient = m // n
+remainder = m % n
+
+
+print("Quotient:", quotient)
+print("Remainder:", remainder)
