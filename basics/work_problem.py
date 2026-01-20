@@ -38,3 +38,12 @@
 
 # Sample Output 2:
 # 14
+
+N = int(input())
+X = int(input())
+Y = int(input())
+M = int(input())
+
+absent = (N * X - M) // (X + Y)
+
+print(absent)
