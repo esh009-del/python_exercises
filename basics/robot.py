@@ -52,4 +52,16 @@
 
 # I am created for the purpose of militaryservice.
 
-# My memory space is around 22 Gb and my speed is 1.1 Tb.                                    
+# My memory space is around 22 Gb and my speed is 1.1 Tb.  
+
+name = input("Enter the Name ")
+creator = input("Enter the Creator Name ")
+purpose = input("Enter the Purpose ")
+memory = int(input("Memory Space "))
+speed = float(input("Speed "))
+
+print("My Details :")
+print("I am the Robot named {}.".format(name))
+print("I was created by {}.".format(creator))
+print("I am created for the purpose of {}.".format(purpose))
+print("My memory space is around {} Gb and my speed is {} Tb.".format(memory, speed))
